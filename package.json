@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiiaAghfir/nodejs-hw.git"
+  },
+  "keywords": [],
+  "author": "Anastasiia_Aghfir <anastasiia.aghfir@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiiaAghfir/nodejs-hw/issues"
+  },
+  "homepage": "https://github.com/AnastasiiaAghfir/nodejs-hw#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.1",
+    "globals": "^17.11.0",
+    "nodemon": "^3.1.14"
+  }
+}

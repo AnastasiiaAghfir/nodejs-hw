@@ -65,7 +65,7 @@ export async function refreshUserSession(req, res) {
     throw createHttpError(401, 'Session not found');
   }
 
-  const isRefreshTokenValid = session.refreshTokenValidUntil < new Date();
+  const isRefreshTokenValid = session.refreshTokenValidUntil > new Date();
 
   if (!isRefreshTokenValid) {
     await session.deleteOne();
